@@ -1,24 +1,28 @@
-# README
+Employee System
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+
 
 * Ruby version
+  - 2.6.3
 
-* System dependencies
+* Rails version
+  - 6.0.3.2
 
-* Configuration
+* Model
+  - Employee Addresses
+  - Employee Jobs
+  - Employees
+  - Job Schedules
 
-* Database creation
+* Database
+  - PostgreSql
 
-* Database initialization
+* Sample Data
+   run rails db:seed
 
-* How to run the test suite
+* API
+  - http://localhost:3000/employee/details?id={id}
+    Example - http://localhost:3000/employee/details?id=1
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    
